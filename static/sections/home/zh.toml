@@ -1,11 +1,9 @@
-title       = "你好，我是 Natasha"
+title       = "你好，我是 lhm"
 description = """
-# 我为你的个人业务助力
+# 全栈开发工程师
 
-享受团队的多样性，在各个领域拓展人脉网络。
+在虚拟世界中从需求到上线的全栈交付
 """
-button_name = "联系我"
-button_url  = "contact"
 image       = "images/hero/2960351.jpg"
 # video_thumb = "images/hero/popup-thumb.png"
 # video_url   = "https://www.youtube.com/embed/tgbNymZ7vqY"

@@ -33,12 +33,12 @@
         </div>
         {% endif %}
         <div class="row contact__widget">
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 <div class="contact__widget_logo">
                     <img src="{{ get_url(path=extra.footer_logo) }}" alt="widget-logo">
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 <div class="contact__widget_sitemap">
                     <h3>{{ trans(key="sitemap", lang=lang) }}</h3>
                     <ul>
@@ -49,36 +49,6 @@
                               </a>
                           </li>
                         {% endfor %}
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="contact__widget_address">
-                    <h3>{{ trans(key="address", lang=lang) }}</h3>
-                    <ul>
-                        {% if extra.address.phone %}
-                        <li>
-                            <a href="tel:{{ extra.address.phone }}">
-                                <i class="lni lni-phone"></i>{{ extra.address.phone }}
-                            </a>
-                        </li> 
-                        {% endif %}
-
-                        {% if extra.address.email %}
-                        <li>
-                            <a href="mailto:{{ extra.address.email }}">
-                                <i class="lni lni-envelope"></i>{{ extra.address.email }}
-                            </a>
-                        </li>
-                        {% endif %}
-
-                        {% if extra.address.address %}
-                        <li>
-                            <p>
-                                <i class="lni lni-map-marker"></i>{{ extra.address.address }}
-                            </p>
-                        </li>
-                        {% endif %}
                     </ul>
                 </div>
             </div>

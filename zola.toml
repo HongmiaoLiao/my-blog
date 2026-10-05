@@ -14,7 +14,7 @@ default_language = "zh"
 theme = "portio-zola"
 
 [languages.en]
-title = "Portio Zola"
+title = "lhm blog"
 generate_feeds = true
 build_search_index = false
 
@@ -24,25 +24,11 @@ taxonomies = [
 ]
 
 [languages.en.translations]
-contact_me = "Contact me"
-start_project = "Let's Start a Project"
 showing_all = "Showing All"
-hire_me_now = "Hire Me Now"
-get_in_touch = "Get in touch"
 see_details = "See Details"
 sitemap = "Sitemap"
-address = "Address"
-phone = "Téléphone"
-email = "Email"
 categories_description = "Showing all posts with the category"
 tags_description = "Showing all posts with the tag"
-opening_hours = "Working hours"
-form_title = "Contact form"
-form_button = "Send Message"
-form_input_name = "Name"
-form_input_email = "Email"
-form_input_message = "Message"
-form_input_agreement = "I agree that my submitted data is being collected and stored."
 copyright = "All right reserved copyright © Portio 2020"
 
 # Menus
@@ -52,7 +38,6 @@ service = "Service"
 work = "Work"
 resume = "Resume"
 blog = "Blog"
-contact = "Contact"
 
 # Sitemaps
 about_me = "About me"
@@ -71,25 +56,11 @@ taxonomies = [
 ]
 
 [languages.zh.translations]
-contact_me = "联系我"
-start_project = "开始一个项目"
 showing_all = "显示全部"
-hire_me_now = "立即雇佣我"
-get_in_touch = "取得联系"
 see_details = "查看详情"
 sitemap = "站点地图"
-address = "地址"
-phone = "电话"
-email = "邮箱"
 categories_description = "显示该分类下的所有文章"
 tags_description = "显示该标签下的所有文章"
-opening_hours = "工作时间"
-form_title = "联系表单"
-form_button = "发送消息"
-form_input_name = "姓名"
-form_input_email = "邮箱"
-form_input_message = "消息内容"
-form_input_agreement = "我同意提交的数据被收集和存储。"
 copyright = "版权所有 © Portio 2020"
 
 # Menus
@@ -99,7 +70,6 @@ service = "服务"
 work = "作品"
 resume = "简历"
 blog = "博客"
-contact = "联系"
 
 # Sitemaps
 about_me = "关于我"
@@ -113,7 +83,7 @@ date_format = "%d %B, %Y"
 logo = "images/logo.png"
 footer_logo = "images/logo.png"
 # google_analytics = "YOUR TOKEN FOR GOOGLE ANALYTICS"
-display_cta = true
+display_cta = false
 
 menus = [
   { name = "home", url = "#home" },
@@ -121,8 +91,7 @@ menus = [
   { name = "service", url = "#service" },
   { name = "work", url = "#portfolio" },
   { name = "resume", url = "#resume" },
-  { name = "blog", url = "#blog" },
-  { name = "contact", url = "#contact" }
+  { name = "blog", url = "#blog" }
 ]
 
 sitemaps = [
@@ -138,18 +107,3 @@ socials = [
   { icon = "pinterest", url = "https://www.pinterest.com" },
   { icon = "twitter-original",  url = "https://www.twitter.com" }
 ]
-
-[extra.address]
-phone = "+(448) 833 5272 332"
-email = "hello@example.com"
-address = "23 Khan Niketon, Grand Street, NYK."
-opening_hours = "Open from 10am to 6pm (close at 5pm Sundays) "
-
-[extra.form]
-active = true
-formspree_url = "YOUR FORMSPREE URL"
-
-[extra.map]
-active = true
-latitude = "48.864716"
-longitude = "2.349014"

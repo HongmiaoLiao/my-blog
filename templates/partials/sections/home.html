@@ -51,7 +51,9 @@
               {% endif %}
               {{ data.description | markdown(inline=true) | safe }}
             </div>
+            {% if data.button_name and data.button_url %}
             <a href="{{ get_url(path=data.button_url, lang=lang) }}">{{ data.button_name }}</a>
+            {% endif %}
           </div>
         </div>
         <div class="col-lg-6">
