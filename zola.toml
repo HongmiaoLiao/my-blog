@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://quentin-rodriguez.github.io/portio-zola"
+base_url = "https://quentin-rodriguez.github.io/portio-zola" # todo
 
 #
 minify_html = true
@@ -46,7 +46,7 @@ privacy_and_policy = "Privacy & Policy"
 latest_article = "Latest Article"
 
 [languages.zh]
-title = "Portio Zola"
+title = "lhm 博客"
 generate_feeds = true
 build_search_index = false
 
@@ -87,11 +87,11 @@ display_cta = false
 
 menus = [
   { name = "home", url = "#home" },
+  { name = "blog", url = "#blog" },
   { name = "about", url = "#about" },
   { name = "service", url = "#service" },
   { name = "work", url = "#portfolio" },
-  { name = "resume", url = "#resume" },
-  { name = "blog", url = "#blog" }
+  { name = "resume", url = "#resume" }
 ]
 
 sitemaps = [
