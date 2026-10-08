@@ -1,6 +1,6 @@
 +++
-title = "2020 佛罗里达设计师大会"
-date = 2022-07-13
+title = "使用claude/codex + remotion + ffmpeg做AI视频"
+date = 2026-10-13
 
 [taxonomies]
 categories = ["blog"]
