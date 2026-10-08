@@ -1,0 +1,16 @@
+top_title = "我的技能"
+title     = "为什么选择我来做你的下一个项目？"
+subtitle  = "我的目标是在自由职业者和初创团队之间建立一个强大的互助专业网络，共同提升。"
+image     = "images/skill/skill_image.jpg"
+
+[[skills]]
+title   = "HTML"
+percent = 69
+
+[[skills]]
+title   = "CSS"
+percent = 60
+
+[[skills]]
+title   = "Javascript"
+percent = 85
