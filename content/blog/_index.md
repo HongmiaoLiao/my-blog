@@ -4,6 +4,7 @@ description = "享受团队的多样性，在各个领域与他人建立联系�
 template = "blog/section.html"
 page_template = "blog/page.html"
 paginate_by = 9
+sort_by = "date"
 
 [extra]
 top_title = "博客"

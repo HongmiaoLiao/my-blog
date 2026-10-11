@@ -4,6 +4,7 @@ description = "Enjoy team diversity and increase their networks among others peo
 template = "blog/section.html"
 page_template = "blog/page.html"
 paginate_by = 9
+sort_by = "date"
 
 [extra]
 top_title = "Blog"
