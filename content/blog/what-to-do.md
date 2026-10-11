@@ -1,6 +1,6 @@
 +++
 title = "我想要做什么"
-date = 2026-10-08
+date = 2026-10-10
 
 [extra]
 feature_image = "images/blog/posts/7.jpg"

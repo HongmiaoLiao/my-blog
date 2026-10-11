@@ -1,0 +1,3 @@
+{% component image(src:string, alt:string="", width:string="") %}
+<img src="{{ get_url(path=src) }}" alt="{{ alt }}"{% if width %} style="width: {{ width }};"{% endif %}>
+{% endcomponent image %}

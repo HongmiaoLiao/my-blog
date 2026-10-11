@@ -1,6 +1,6 @@
 +++
 title = "使用claude/codex + remotion + ffmpeg做AI视频"
-date = 2026-10-13
+date = 2026-10-10
 
 [taxonomies]
 categories = ["blog"]
